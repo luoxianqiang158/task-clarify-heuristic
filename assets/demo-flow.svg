@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 500" font-family="system-ui,-apple-system,'Segoe UI','PingFang SC',sans-serif">
+  <rect width="860" height="500" fill="#ffffff"/>
+  <text x="430" y="36" text-anchor="middle" font-size="19" font-weight="800" fill="#1e293b">Task Clarify Heuristic · 工作流</text>
+  <text x="430" y="58" text-anchor="middle" font-size="12.5" fill="#64748b">把模糊需求收敛成结构化 Agent 任务规约 · 每轮 ≤2 问 · 区分目标与手段</text>
+
+  <!-- flow nodes -->
+  <g font-size="13" font-weight="600">
+    <!-- B1 -->
+    <rect x="44" y="108" width="140" height="64" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="114" y="135" text-anchor="middle" fill="#334155">模糊需求输入</text>
+    <text x="114" y="154" text-anchor="middle" font-size="11" fill="#94a3b8">「帮我做 XX」</text>
+
+    <!-- B2 预检 -->
+    <rect x="202" y="108" width="140" height="64" rx="12" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
+    <text x="272" y="135" text-anchor="middle" fill="#4338ca">阶段 0 预检</text>
+    <text x="272" y="154" text-anchor="middle" font-size="11" fill="#6366f1">是否足够清晰</text>
+
+    <!-- B3 -->
+    <rect x="360" y="108" width="140" height="64" rx="12" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="1.5"/>
+    <text x="430" y="135" text-anchor="middle" fill="#0369a1">阶段 1 意图澄清</text>
+    <text x="430" y="154" text-anchor="middle" font-size="11" fill="#0ea5e9">目标 vs 手段</text>
+
+    <!-- B4 -->
+    <rect x="518" y="108" width="140" height="64" rx="12" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="1.5"/>
+    <text x="588" y="135" text-anchor="middle" fill="#0369a1">阶段 2 约束澄清</text>
+    <text x="588" y="154" text-anchor="middle" font-size="11" fill="#0ea5e9">输入/输出/约束</text>
+
+    <!-- B5 -->
+    <rect x="676" y="108" width="140" height="64" rx="12" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.5"/>
+    <text x="746" y="135" text-anchor="middle" fill="#6d28d9">阶段 3 生成规约</text>
+    <text x="746" y="154" text-anchor="middle" font-size="11" fill="#8b5cf6">确认后交付</text>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#94a3b8" stroke-width="1.6" fill="none">
+    <path d="M184 140 H198"/>
+    <path d="M342 140 H356"/>
+    <path d="M500 140 H514"/>
+    <path d="M658 140 H672"/>
+    <!-- 直通 shortcut B2 -> B5 -->
+    <path d="M272 172 C 272 230, 746 230, 746 172" stroke="#22c55e" stroke-dasharray="5 4"/>
+  </g>
+  <g fill="#94a3b8" font-size="10.5">
+    <text x="270" y="200" text-anchor="middle" fill="#16a34a">清晰 → 直通</text>
+    <text x="292" y="155" fill="#94a3b8">模糊</text>
+  </g>
+
+  <!-- Before card -->
+  <rect x="44" y="290" width="384" height="180" rx="14" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
+  <text x="64" y="318" font-size="14" font-weight="800" fill="#dc2626">✗ 未澄清</text>
+  <text x="64" y="344" font-size="12" fill="#7f1d1d">用户：「帮我写个竞品分析」</text>
+  <text x="64" y="366" font-size="12" fill="#7f1d1d">Agent：直接开写…</text>
+  <text x="64" y="392" font-size="12" fill="#7f1d1d">→ 泛泛而谈、不对路</text>
+  <text x="64" y="418" font-size="12" fill="#7f1d1d">→ 来回改 3 遍、双方都烦</text>
+  <text x="64" y="446" font-size="12" font-weight="700" fill="#b91c1c">结果：返工、信任下降</text>
+
+  <!-- After card -->
+  <rect x="432" y="290" width="384" height="180" rx="14" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+  <text x="452" y="318" font-size="14" font-weight="800" fill="#16a34a">✓ 经澄清</text>
+  <text x="452" y="344" font-size="12" fill="#14532d">澄清：目标/受众/格式/验收</text>
+  <text x="452" y="366" font-size="12" fill="#14532d">输出：结构化任务规约</text>
+  <text x="452" y="392" font-size="12" fill="#14532d">→ 精准交付、一次到位</text>
+  <text x="452" y="418" font-size="12" fill="#14532d">→ 用户确认后执行</text>
+  <text x="452" y="446" font-size="12" font-weight="700" fill="#15803d">结果：省时、对齐、可复用</text>
+
+  <text x="430" y="494" text-anchor="middle" font-size="11" fill="#94a3b8">详见 SKILL.md · platforms/ 提供 Dify / OpenCode / 纯 Prompt 三版</text>
+</svg>
