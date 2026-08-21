@@ -6,6 +6,8 @@
 [![Platform](https://img.shields.io/badge/platform-Dify%20%7C%20WorkBuddy%20%7C%20OpenCode-8b5cf6)](./platforms)
 [![Lang](https://img.shields.io/badge/lang-%E4%B8%AD%E6%96%87%20%2F%20EN-orange)](./README_EN.md)
 [![Type](https://img.shields.io/badge/type-agent--skill-green)](./SKILL.md)
+[![GitHub](https://img.shields.io/badge/GitHub-task--clarify--heuristic-blue?logo=github)](https://github.com/luoxianqiang158/task-clarify-heuristic)
+[![ModelScope](https://img.shields.io/badge/ModelScope-task--clarify--heuristic-green)](https://www.modelscope.cn/luoxianqiang/task-clarify-heuristic)
 
 <p align="center">
   <img src="./assets/demo.gif" alt="Task Clarify Heuristic Demo" width="560"/>

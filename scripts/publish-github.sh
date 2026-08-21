@@ -4,7 +4,7 @@
 set -euo pipefail
 
 TOKEN="${GITHUB_TOKEN:-}"
-REPO="luoxianqiang/task-clarify-heuristic"
+REPO="luoxianqiang158/task-clarify-heuristic"
 
 if [[ -z "$TOKEN" ]]; then
   echo "❌ 请设置 GITHUB_TOKEN 环境变量（需要 repo 权限）"
