@@ -1,5 +1,6 @@
 ---
 name: task-clarify-heuristic
+version: 1.0.0
 description: 用户任务描述模糊、缺目标、缺约束、缺输出标准或边界时使用。通过分层启发式多轮提问（每轮 1-2 个问题），区分业务目标与手段，补齐输入/输出/约束/验收标准，最终输出结构化 Agent 任务规约。触发词：帮我做XX、帮我分析XX、帮我写XX、任务说不清楚、需求澄清、任务规约。适用于 Dify/WorkBuddy/OpenCode 等任何 Agent 平台的任务下发前置澄清。
 description_en: A heuristic multi-turn questioning workflow that turns vague agent tasks into executable, well-scoped task specs. Distinguishes means from business goals, asks ≤2 questions per round, auto-fills assumptions for confirmation, and outputs a structured spec ready to hand to any agent (Dify / WorkBuddy / OpenCode). Use when a user request is vague, missing goals, constraints, output format, or acceptance criteria.
 ---
