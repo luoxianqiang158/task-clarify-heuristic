@@ -7,6 +7,10 @@
 [![Lang](https://img.shields.io/badge/lang-EN%20%2F%20%E4%B8%AD%E6%96%87-orange)](./README.md)
 [![Type](https://img.shields.io/badge/type-agent--skill-green)](./SKILL.md)
 
+<p align="center">
+  <img src="./assets/demo.gif" alt="Task Clarify Heuristic Demo" width="560"/>
+</p>
+
 > One line: **Most prompts teach you how to instruct an Agent. This skill helps you turn a vague request into a clear instruction first.**
 
 ---

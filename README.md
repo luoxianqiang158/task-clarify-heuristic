@@ -7,6 +7,10 @@
 [![Lang](https://img.shields.io/badge/lang-%E4%B8%AD%E6%96%87%20%2F%20EN-orange)](./README_EN.md)
 [![Type](https://img.shields.io/badge/type-agent--skill-green)](./SKILL.md)
 
+<p align="center">
+  <img src="./assets/demo.gif" alt="Task Clarify Heuristic Demo" width="560"/>
+</p>
+
 > 一句话：**市面上的 prompt 都教你怎么给 Agent 下指令，这个 Skill 帮你先把模糊需求变成清晰指令。**
 
 ---
